@@ -1,0 +1,89 @@
+body {
+    background-color: #aaa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Frame1 {
+    color: blue;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 20px;
+    text-align: left;
+}
+
+.bolder1 {
+    background-color: white;
+    margin: 40px;
+    padding: 30px;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: left;
+    color: black;
+}
+
+.underline {
+    color: blue;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    color: black;
+    margin: 10px 0 5px;
+}
+
+.product-card p {
+    color: #444;
+    margin: 5px 0;
+}
+
+.product-card .price {
+    color: green;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
